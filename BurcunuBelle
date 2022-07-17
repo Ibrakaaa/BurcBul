@@ -1,0 +1,179 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        int ay, gün;
+
+        Scanner girdi = new Scanner(System.in);
+
+        System.out.print("Kaçıncı Ay'da Doğdunuz? ");
+        ay = girdi.nextInt();
+
+        System.out.print("Hangi Gün Doğdunuz? ");
+        gün = girdi.nextInt();
+        if(ay==1) {
+            if (gün >= 1 && gün<= 31){
+                if (gün >= 1 && gün <= 21) {
+                    System.out.print("Burcunuz: Oğlak");
+                } else {
+                    System.out.print("Burcunuz: Kova");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay == 2) {
+            if(gün>=1 && gün<=28) {
+                if (gün >= 1 && gün <= 19) {
+                    System.out.print("Burcunuz: Kova");
+                } else {
+                    System.out.print("Burcunuz: Balık");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if (ay == 3) {
+            if(gün>=1 && gün <=31) {
+                if (gün >= 1 && gün <= 2) {
+                    System.out.print("Burcunuz: Balık");
+                } else {
+                    System.out.print("Burcunuz: Koç");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay ==4){
+            if(gün>=1 && gün<=30) {
+                if (gün >= 1 && gün <= 20) {
+                    System.out.print("Burcunuz: Koç");
+                } else {
+                    System.out.print("Burcunuz: Boğa");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay ==5){
+            if(gün>=1 && gün <=31) {
+                if (gün >= 1 && gün <= 21) {
+                    System.out.print("Burcunuz: Boğa");
+                } else {
+                    System.out.print("Burcunuz: İkizler");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay ==6 ){
+            if(gün>=1 && gün<=30) {
+                if (gün >= 1 && gün <= 22) {
+                    System.out.print("Burcunuz İkizler");
+                } else {
+                    System.out.print("Burcunuz: Yengeç");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay==7){
+            if(gün>=1 && gün<=31) {
+                if (gün >= 1 && gün <= 22) {
+                    System.out.print("Burcunuz: Yengeç");
+                } else {
+                    System.out.print("Burcunuz: Aslan");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay==8){
+            if(gün>=1 && gün<=31) {
+                if (gün >= 1 && gün <= 22) {
+                    System.out.print("Burcunuz: Aslan");
+                } else {
+                    System.out.print("Burcunuz: Başak");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay ==9){
+            if(gün>=1 && gün<=30 ) {
+                if (gün >= 1 && gün <= 22) {
+                    System.out.print("Burcunuz: Başak");
+                } else {
+                    System.out.print("Burcunuz: Terazi");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay==10){
+            if(gün>=1 && gün<=31 ) {
+                if (gün >= 1 && gün <= 22) {
+                    System.out.print("Burcunuz: Terazi");
+                } else {
+                    System.out.print("Burcunuz: Akrep");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay==11){
+            if(gün>=1 && gün<=30) {
+                if (gün >= 1 && gün <= 21) {
+                    System.out.print("Burcunuz: Akrep");
+                } else {
+                    System.out.print("Burcunuz: Yay");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        if(ay==12){
+            if(gün>=1 && gün <=31) {
+                if (gün >= 1 && gün <= 21) {
+                    System.out.print("Burcunuz: Yay");
+                } else {
+                    System.out.print("Burcunuz: Oğlak");
+                }
+            }else{
+                System.out.print("Lütfen Geçerli Bir Tarih Giriniz...");
+            }
+        }
+        }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
