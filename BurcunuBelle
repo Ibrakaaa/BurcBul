@@ -35,7 +35,7 @@ public class Main {
         }
         if (ay == 3) {
             if(gün>=1 && gün <=31) {
-                if (gün >= 1 && gün <= 2) {
+                if (gün >= 1 && gün <= 20) {
                     System.out.print("Burcunuz: Balık");
                 } else {
                     System.out.print("Burcunuz: Koç");
